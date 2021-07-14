@@ -23,3 +23,23 @@ a:active {
   color: white;
   text-decoration: none;
 }
+
+/* Flex Style Start */
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+/* Flex Style End */
