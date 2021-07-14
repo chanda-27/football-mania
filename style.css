@@ -277,6 +277,9 @@ img {
   width: 50%;
   border-bottom: 1px solid #777;
   margin: 0 auto;
+  padding-bottom: 0;
+  margin-bottom: 10px;
 }
+
 
 /* Extra Styles */
