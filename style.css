@@ -266,4 +266,17 @@ img {
   background-color: rgb(76, 175, 80);
 }
 
+.iframe {
+  max-width: 500px;
+  width: 95%;
+  height: 315px;
+  margin: 0 auto;
+}
+
+.underline {
+  width: 50%;
+  border-bottom: 1px solid #777;
+  margin: 0 auto;
+}
+
 /* Extra Styles */
