@@ -16,3 +16,10 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
 }
+
+a:link,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
