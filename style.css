@@ -87,3 +87,38 @@ a:active {
 background-color: blue;
 color: white;
 }
+
+/* Button Styles */
+
+.btn {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-header {
+  padding: .7rem 2rem;
+  font-size: 1.8rem;
+  background-color: crimson;
+
+  /* Add Keyframes for Animation */
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
+}
+
+.btn-header:hover {
+  transform: translateY(-.3rem);
+
+  /* Box Shadow */
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+.btn-header:active {
+  transform: translateY(-1px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+}
+
+.btn-navbar-toggler {
+  padding: 5px;
+  background-color: transparent;
+}
